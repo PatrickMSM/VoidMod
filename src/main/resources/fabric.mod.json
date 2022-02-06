@@ -6,11 +6,10 @@
   "name": "VoidMod",
   "description": "VoidMod adds the Void dimension",
   "authors": [
-    "Me!"
+    "PatrickMSM"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/PatrickMSM/VoidMod"
   },
 
   "license": "GPL-3.0",
