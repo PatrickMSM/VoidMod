@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "voidmod",
+  "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "VoidMod",
+  "description": "VoidMod adds the Void dimension",
   "authors": [
     "Me!"
   ],
@@ -13,21 +13,21 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/voidmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "tk.patsite.voidmod.VoidMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "voidmod.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.13.1",
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
